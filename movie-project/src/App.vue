@@ -36,14 +36,8 @@
 </template>
 ls
 <script>
-import HelloWorld from "./components/HelloWorld.vue";
-
 export default {
   name: "App",
-
-  components: {
-    HelloWorld,
-  },
 
   data: () => ({
     //
