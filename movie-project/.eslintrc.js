@@ -24,6 +24,5 @@ module.exports = {
     "max-len": "off",
     "no-plusplus": "off",
     "eol-last": "off",
-    'no-unused-vars': 'off'
   },
 };
