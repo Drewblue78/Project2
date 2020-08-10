@@ -3,6 +3,7 @@
     <v-content>
       <Toolbar />
       <Drawer />
+      <MoviePlayer />
     </v-content>
 
     <v-main></v-main>
@@ -11,6 +12,7 @@
 <script>
 import Toolbar from "./components/Toolbar.vue";
 import Drawer from "./components/Drawer.vue";
+import MoviePlayer from "./components/MoviePlayer.vue";
 
 export default {
   name: "App",
@@ -18,6 +20,7 @@ export default {
   components: {
     Toolbar,
     Drawer,
+    MoviePlayer,
   },
 
   data: () => ({
