@@ -65,10 +65,29 @@
         </v-row>
       </v-list-item-content>
       <v-list-item-content>
+        <v-list-item-title>Jerm</v-list-item-title>
+        <div class="left" v-for="(mov, i) in $root.movies" :key="i">
+          <v-btn
+            small
+            block
+            rounded
+            color="primary"
+            dark
+            @click="$root.currentmovie=mov.video"
+          >{{mov.title}}</v-btn>
+        </div>
+
         <v-list-item-title>Movies</v-list-item-title>
         <br />
         <div class="left">
-          <v-btn small block rounded color="primary" dark>Avengers</v-btn>
+          <v-btn
+            small
+            block
+            rounded
+            @click="$root.currentmovie='bunny.mp4'"
+            color="primary"
+            dark
+          >Avengers</v-btn>
         </div>
         <div class="left">
           <v-btn small block rounded color="primary" dark>Avengers: Age of Ultron</v-btn>
