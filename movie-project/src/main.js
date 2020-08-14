@@ -11,11 +11,36 @@ new Vue({
   vuetify,
   render: (h) => h(App),
   data: {
-    currentmovie: "movie.mp4",
+    currentmovie: "movie.m4v",
     categories: ["Marvel", "Star Wars", "Animated"],
     movies: [
-      { title: "Avengers", video: "movie.mp4" },
-      { title: "Avengers: Age of Ultron", video: "bunny.mp4" }
+      { title: "Avengers", video: "Avengers.m4v" },
+      { title: "Avengers: Age of Ultron", video: "Avengers.AOU.m4v" },
+      { title: "Avengers: Infinity War", video: "Avenger.Infinity.m4v" },
+      { title: "Avengers: Endgame", video: "Avenger.Endgame.m4v" },
+      { title: "Guardians of the Galaaxy", video: "Gotg.m4v" },
+      { title: "Guardians of the Galaxy 2", video: "Gotg2.m4v" },
+      { title: "Star Wars: The Phantom Menace", video: "StarWars1.m4v" },
+      { title: "Toy Story", video: "Toy.Story.m4v" },
+
+    ]
+
+  }
+
+}).$mount('#app');
+new Vue({
+  vuetify,
+  render: (h) => h(App),
+  data: {
+    marvel: "movie.m4v",
+    categories: ["Marvel"],
+    movies: [
+      { title: "Avengers", video: "Avengers.m4v" },
+      { title: "Avengers: Age of Ultron", video: "Avengers.AOU.m4v" },
+      { title: "Avengers: Infinity War", video: "Avenger.Infinity.m4v" },
+      { title: "Avengers: Endgame", video: "Avenger.Endgame.m4v" },
+      { title: "Guardians of the Galaaxy", video: "Gotg.m4v" },
+      { title: "Guardians of the Galaxy 2", video: "Gotg2.m4v" },
     ]
 
   }
