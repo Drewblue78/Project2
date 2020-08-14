@@ -26,11 +26,11 @@ new Vue({
           },
           {
             title: "Avengers: Infinity War",
-            video: "Avenger.Infinity.mp4"
+            video: "Avengers.Infinity.mp4"
           },
           {
             title: "Avengers: Endgame",
-            video: "Avenger.Endgame.mp4"
+            video: "Avengers.Endgame.mp4"
           },
           {
             title: "Guardians of the Galaaxy",
@@ -47,7 +47,7 @@ new Vue({
         movies: [
           {
             title: "Star Wars: The Phantom Menace",
-            video: "StarWars1.mp4"
+            video: "Star.Wars1.mp4"
           },
         ]
       },

@@ -1,5 +1,5 @@
 <template>
-  <v-navigation-drawer app src="../assets/popcorn.jpg" permanent fixed>
+  <v-navigation-drawer app src="../assets/popcorn.jpg" permanent expand-on-hover>
     <v-list-item>
       <v-list-item-content>
         <v-list-item-title class="title">Movie Player</v-list-item-title>
@@ -12,7 +12,7 @@
       <v-list-item-content>
         <v-list-item-title>Collections</v-list-item-title>
         <br />
-        <v-row v-for="(cat,i) in $root.categories" :key="i" justify="center">
+        <v-row v-for="(cat,i) in $root.categories" :key="i" justify="left">
           <v-expansion-panels accordion>
             <v-expansion-panel v-for="(item,i) in 1" :key="i">
               <v-expansion-panel-header>{{cat.title}}</v-expansion-panel-header>

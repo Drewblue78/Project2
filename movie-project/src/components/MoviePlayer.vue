@@ -1,7 +1,7 @@
 <template>
   <div>
     <div class="player-container">
-      <video controls :src="`/${$root.currentmovie}`"></video>
+      <video :src="`/${$root.currentmovie}`" controls autoplay></video>
     </div>
   </div>
 </template>
