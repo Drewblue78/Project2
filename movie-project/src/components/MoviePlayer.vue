@@ -1,7 +1,7 @@
 <template>
   <div>
     <div class="player-container">
-      <vue-core-video-player :src="`/${$root.currentmovie}`"></vue-core-video-player>
+      <video controls :src="`/${$root.currentmovie}`"></video>
     </div>
   </div>
 </template>
